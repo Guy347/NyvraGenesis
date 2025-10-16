@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background: radial-gradient(circle at 20% 20%, #0d0d2b, #000010 80%);
+  background-image: url('https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=2000&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(0, 0, 30, 0.6);
+  backdrop-filter: blur(5px);
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #00ffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover, nav a.active {
+  color: #ff00ff;
+  text-shadow: 0 0 10px #ff00ff;
+}
+
+main {
+  max-width: 900px;
+  margin: 50px auto;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #0ff2ff44;
+}
+
+section h2 {
+  color: #00eaff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+section p, li {
+  line-height: 1.8;
+}
+
+.btn {
+  display: inline-block;
+  background: #00bfff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ff00ff;
+  box-shadow: 0 0 15px #ff00ff;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: rgba(0, 0, 20, 0.8);
+  font-size: 0.9em;
+}
